@@ -1,0 +1,55 @@
+form {
+  max-width: 500px;
+  margin: auto;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-weight: 500;
+  padding: 4px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  display: inline-block;
+  background-color: #0260ac;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+button:hover:not(:disabled) {
+  background-color: #218838;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+p {
+  font-family: Chandas;
+  color: red;
+}
+
+label {
+  font-weight: 500;
+  padding: 4px;
+}

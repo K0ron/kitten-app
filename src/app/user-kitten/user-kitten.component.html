@@ -1,0 +1,11 @@
+<div class="user">
+  <div *ngIf="userKittens.length === 0">Choisisez un chaton</div>
+  <div *ngFor="let kitten of userKittens" class="user-kitten-card">
+    <img [src]="kitten.imageUrl" alt="{{ kitten.name }}" />
+    <div class="kitten-info">
+      <h3>{{ kitten.name }}</h3>
+      <p>Race: {{ kitten.breed }}</p>
+      <p>Date de naissance: {{ kitten.birthDate }}</p>
+    </div>
+  </div>
+</div>

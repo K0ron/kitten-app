@@ -1,0 +1,39 @@
+.adopt {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.kitten-card {
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.kitten-card img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-right: 15px;
+}
+
+.kitten-card button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.kitten-card button:hover {
+  background-color: #0056b3;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+}
